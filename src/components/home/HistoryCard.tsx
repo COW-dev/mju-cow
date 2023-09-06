@@ -13,13 +13,13 @@ export default function HistoryCard({
 }: HistoryCardProps) {
   return (
     <div
-      className={`h-[9rem] text-base font-medium leading-tight drop-shadow backdrop-blur-md md:w-full md:text-lg ${css}`}
+      className={`h-[9rem] text-base leading-tight backdrop-blur-md md:w-full md:text-lg ${css}`}
     >
-      <div className="bg-[#535353] px-3 py-2 text-white md:px-4">
-        <span className="mr-2 text-cyan100 md:mr-4">{year}</span>
+      <div className="bg-[#535353] px-3 py-2 font-semibold text-white drop-shadow md:px-4">
+        <span className="mr-2 text-cyan100 md:mr-3">{year}</span>
         {title}
       </div>
-      <div className="mt-2 break-keep">{children}</div>
+      <div className="mt-2 break-keep font-medium">{children}</div>
     </div>
   );
 }

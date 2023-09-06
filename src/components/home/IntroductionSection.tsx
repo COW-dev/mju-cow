@@ -39,7 +39,7 @@ export default function IntroductionSection() {
               <div className="relative mb-6 h-18 w-18 drop-shadow md:mb-8 md:h-24 md:w-24">
                 <Image src={icon} fill alt={icon} />
               </div>
-              <p className="text-xl font-medium text-gray-600 md:text-2xl">
+              <p className="text-xl font-semibold text-gray-600 md:text-2xl">
                 {name}
               </p>
             </div>
