@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Pretendard Variable';
+  -webkit-user-drag: none;
+  -webkit-user-select: text;
+  user-select: text;
+}
