@@ -61,8 +61,10 @@ export default function HistorySection() {
     <section className="flex w-full flex-col items-center justify-center">
       <div className="flex w-full max-w-6xl flex-col justify-center gap-18 px-6 py-24">
         <div className="text-right font-semibold">
-          <p className="text-base text-gray-400 md:text-lg">HISTORY</p>
-          <h3 className="text-2.5xl leading-tight drop-shadow sm:text-3xl md:text-4.5xl">
+          <span className="bg-blue-100 px-2 py-1 text-base font-semibold text-blue-500 md:text-lg">
+            HISTORY
+          </span>
+          <h3 className="mt-2 text-2.5xl leading-tight drop-shadow sm:text-3xl md:text-4.5xl">
             우리는 계속해서 성장합니다
           </h3>
         </div>

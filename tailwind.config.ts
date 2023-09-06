@@ -26,7 +26,7 @@ const config: Config = {
         'bounce-slow': {
           '0%, 100%': {
             transform: 'translateY(1%)',
-            'animation-timing-function': 'cubic-bezier(0.1,0,0.5,0.5)',
+            'animation-timing-function': 'cubic-bezier(0.1,0,0,0.5)',
           },
           '50%': {
             transform: 'none',
