@@ -3,8 +3,8 @@ import Image from 'next/image';
 export default function IndexSection() {
   return (
     <section className="flex h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-white to-blue-200">
-      <div className="mb-20 flex w-full max-w-6xl flex-col items-center justify-between px-12 sm:flex-row">
-        <div className="text-xl md:text-2xl lg:text-3xl">
+      <div className="mb-32 flex w-full max-w-6xl flex-col items-center justify-between px-12 sm:mb-20 sm:flex-row">
+        <div className="mb-4 flex w-full flex-col items-start text-xl sm:mb-0 sm:w-auto md:text-2xl lg:text-3xl">
           <span className="bg-indigo-200 px-2 py-1 text-base font-semibold text-indigo-500 lg:text-lg">
             RECRUIT
           </span>
@@ -20,8 +20,8 @@ export default function IndexSection() {
           </h2>
           <h3 className="font-medium text-gray-500">09.03 – 09.16</h3>
         </div>
-        <div className="relative h-[15rem] w-[15rem] drop-shadow md:h-[20rem] md:w-[20rem] lg:h-[28rem] lg:w-[28rem]">
-          <Image src={'/browser.svg'} fill alt="browser" />
+        <div className="relative h-[17rem] w-[17rem] drop-shadow md:h-[20rem] md:w-[20rem] lg:h-[28rem] lg:w-[28rem]">
+          <Image src={'/browser.svg'} fill priority alt="browser" />
         </div>
       </div>
       <div className="absolute bottom-[10%] h-8 w-8 animate-bounce opacity-30 drop-shadow">
