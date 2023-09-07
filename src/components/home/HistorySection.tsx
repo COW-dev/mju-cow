@@ -65,7 +65,7 @@ export default function HistorySection() {
             HISTORY
           </span>
           <h3 className="mt-2 text-2.5xl leading-tight drop-shadow sm:text-3xl md:text-4.5xl">
-            우리는 계속해서 성장합니다
+            카우가 걸어온 길
           </h3>
         </div>
         <div className="hidden justify-center sm:flex">
