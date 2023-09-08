@@ -9,7 +9,7 @@ interface NavLinkProps {
 export default function NavLink({ value, href, isActive }: NavLinkProps) {
   return (
     <li
-      className={`mx-5 ${
+      className={`mr-7 last:mr-0 sm:mr-10 ${
         !isActive && 'opacity-50 transition-opacity hover:opacity-80'
       }`}
     >

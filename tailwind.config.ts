@@ -12,6 +12,10 @@ const config: Config = {
         black100: '#191F28',
         cyan100: '#43DDFF',
         blue100: '#3646DB',
+        sky100: '#0EA5E9',
+        yellow100: '#F59E0B',
+        purple100: '#8B5CF6',
+        pink100: '#F43F5E',
         sky10: '#D1F0FB',
       },
       spacing: {

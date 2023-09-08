@@ -27,19 +27,13 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="fixed left-0 top-0 z-50 flex h-18 w-full items-center justify-center bg-white bg-opacity-40 backdrop-blur">
-      <div className="flex w-full max-w-6xl justify-between">
-        <Link href={'/'} className="ml-5">
-          <Image
-            src={'/cow_logo.png'}
-            width={40}
-            height={40}
-            alt="cow"
-            className="drop-shadow"
-          />
+    <header className="fixed left-0 top-0 z-50 flex h-16 w-full items-center justify-center bg-white bg-opacity-40 backdrop-blur sm:h-18">
+      <div className="flex w-full max-w-6xl justify-between px-6">
+        <Link href={'/'} className="relative h-9 w-9 sm:h-10 sm:w-10">
+          <Image src={'/cow_logo.png'} fill alt="cow" className="drop-shadow" />
         </Link>
         <nav className="flex items-center">
-          <ul className="flex text-lg font-semibold">
+          <ul className="flex text-base font-semibold sm:text-lg">
             {navItems.map(({ id, value, href }) => (
               <NavLink
                 key={id}
