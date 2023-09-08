@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function IndexSection() {
   return (
     <section className="flex h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-white to-blue-200">
-      <div className="mb-14 flex w-full max-w-6xl flex-col items-center justify-between px-12 sm:mb-20 sm:flex-row">
+      <div className="mb-8 flex w-full max-w-6xl flex-col items-center justify-between px-12 sm:mb-20 sm:flex-row">
         <div className="mb-18 flex w-full flex-col items-start text-xl sm:mb-0 sm:w-auto sm:text-2xl lg:text-3xl">
           <span className="bg-indigo-200 px-2 py-0.5 text-base font-semibold text-indigo-500 md:text-lg">
             RECRUIT
