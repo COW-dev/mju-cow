@@ -9,7 +9,6 @@ export default function Home() {
       <IndexSection />
       <IntroductionSection />
       <HistorySection />
-      <MoreSection />
     </>
   );
 }
