@@ -19,13 +19,13 @@ export default function IndexSection() {
           <Image src={'/boy1.svg'} fill priority alt="boy1" />
         </div>
         <div className="absolute -left-[25%] top-[55%] h-[33rem] w-[33rem] sm:left-[5%] sm:top-[45%] sm:h-[40rem] sm:w-[40rem] md:top-[40%] md:h-[45rem] md:w-[45rem] lg:left-[10%] lg:top-[28%] lg:h-[55rem] lg:w-[55rem]">
-          <Image src={'/boy2.svg'} fill alt="boy2" />
+          <Image src={'/boy2.svg'} fill priority alt="boy2" />
         </div>
         <div className="absolute right-[30%] top-[55%] h-[10rem] w-[7rem] sm:right-[30%] sm:top-[45%] sm:h-[10rem] sm:w-[10rem] lg:right-[35%] lg:top-[35%] lg:h-[13rem] lg:w-[13rem]">
-          <Image src={'/object.svg'} fill alt="object" />
+          <Image src={'/object.svg'} fill priority alt="object" />
         </div>
         <div className="absolute -right-[25%] top-[40%] h-[20rem] w-[20rem] sm:-right-[15%] sm:top-[25%] sm:h-[28rem] sm:w-[28rem] md:h-[30rem] md:w-[30rem] lg:-right-[18%] lg:top-[20%] lg:h-[40rem] lg:w-[40rem]">
-          <Image src={'/girl.svg'} fill alt="girl" />
+          <Image src={'/girl.svg'} fill priority alt="girl" />
         </div>
       </div>
     </section>
