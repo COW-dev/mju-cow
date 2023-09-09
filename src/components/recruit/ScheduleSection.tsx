@@ -35,7 +35,7 @@ export default function ScheduleSection() {
         <span className="bg-blue-100 px-2 py-1 text-base font-semibold text-blue-500 md:text-lg">
           SCHEDULE
         </span>
-        <h2 className="mb-14 mt-2 text-2.5xl font-semibold drop-shadow sm:mb-18 sm:text-3xl md:text-4.5xl">
+        <h2 className="mb-14 mt-2 text-2.5xl font-semibold drop-shadow-sm sm:mb-18 sm:text-3xl md:text-4.5xl">
           모집 일정
         </h2>
         <ul className="mb-14 grid grid-cols-7 gap-y-4 sm:mb-18">
@@ -48,7 +48,7 @@ export default function ScheduleSection() {
           ))}
           <li className="font-medium">
             <div className="mb-4 text-sm sm:text-lg lg:text-xl">03</div>
-            <div className="border-sky100 bg-sky100 whitespace-nowrap border-l-4 bg-opacity-10 py-1.5 pl-2 text-sm text-sky-600 sm:pl-3 sm:text-base lg:text-lg">
+            <div className="whitespace-nowrap border-l-4 border-sky100 bg-sky100 bg-opacity-10 py-1.5 pl-2 text-sm text-sky-600 sm:pl-3 sm:text-base lg:text-lg">
               서류 접수
             </div>
           </li>
@@ -56,9 +56,9 @@ export default function ScheduleSection() {
             (item, idx) => (
               <li key={idx} className="font-medium">
                 <div className="mb-4 text-sm sm:text-lg lg:text-xl">{item}</div>
-                <div className="bg-sky100 mb-4 h-8 bg-opacity-10 text-sm text-sky-700 sm:h-9 sm:text-base lg:h-10 lg:text-lg" />
+                <div className="mb-4 h-8 bg-sky100 bg-opacity-10 text-sm text-sky-700 sm:h-9 sm:text-base lg:h-10 lg:text-lg" />
                 {item === '13' && (
-                  <div className="border-yellow100 bg-yellow100 border-l-4 bg-opacity-10 py-1.5 pl-2 text-sm text-yellow-700 sm:pl-3 sm:text-base lg:text-lg">
+                  <div className="border-l-4 border-yellow100 bg-yellow100 bg-opacity-10 py-1.5 pl-2 text-sm text-yellow-700 sm:pl-3 sm:text-base lg:text-lg">
                     서류 합격 발표
                   </div>
                 )}
@@ -67,17 +67,17 @@ export default function ScheduleSection() {
           )}
           <li className="font-medium">
             <div className="mb-4 text-sm sm:text-lg lg:text-xl">14</div>
-            <div className="border-purple100 bg-purple100 border-l-4 bg-opacity-10 py-1.5 pl-2 text-sm text-purple-600 sm:pl-3 sm:text-base lg:text-lg">
+            <div className="border-l-4 border-purple100 bg-purple100 bg-opacity-10 py-1.5 pl-2 text-sm text-purple-600 sm:pl-3 sm:text-base lg:text-lg">
               면접
             </div>
           </li>
           <li className="font-medium">
             <div className="mb-4 text-sm sm:text-lg lg:text-xl">15</div>
-            <div className="bg-purple100 h-8 bg-opacity-10 text-purple-600 sm:h-9 lg:h-10" />
+            <div className="h-8 bg-purple100 bg-opacity-10 text-purple-600 sm:h-9 lg:h-10" />
           </li>
           <li className="font-medium">
             <div className="mb-4 text-sm sm:text-lg lg:text-xl">14</div>
-            <div className="border-pink100 bg-pink100 border-l-4 bg-opacity-10 py-1.5 pl-2 text-sm text-pink-600 sm:pl-3 sm:text-base lg:text-lg">
+            <div className="border-l-4 border-pink100 bg-pink100 bg-opacity-10 py-1.5 pl-2 text-sm text-pink-600 sm:pl-3 sm:text-base lg:text-lg">
               결과 발표
             </div>
           </li>

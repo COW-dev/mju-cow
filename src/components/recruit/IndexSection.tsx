@@ -8,7 +8,7 @@ export default function IndexSection() {
           <span className="bg-indigo-200 px-2 py-0.5 text-base font-semibold text-indigo-500 md:text-lg">
             RECRUIT
           </span>
-          <h1 className="my-3 text-3xl font-bold drop-shadow sm:text-4xl md:my-4 md:text-5xl lg:text-6xl">
+          <h1 className="my-3 text-3xl font-bold drop-shadow-sm sm:text-4xl md:my-4 md:text-5xl lg:text-6xl">
             카우{' '}
             <span className="bg-gradient-to-br from-cyan100 to-blue100 bg-clip-text text-transparent">
               2기{' '}
@@ -29,11 +29,11 @@ export default function IndexSection() {
             지원하기!
           </a>
         </div>
-        <div className="relative h-[7rem] w-[7rem] drop-shadow sm:h-[12rem] sm:w-[12rem] lg:h-[17rem] lg:w-[17rem]">
+        <div className="relative h-[7rem] w-[7rem] drop-shadow-sm sm:h-[12rem] sm:w-[12rem] lg:h-[17rem] lg:w-[17rem]">
           <Image src={'/cow_logo.svg'} fill priority alt="cow" />
         </div>
       </div>
-      <div className="absolute bottom-[10%] hidden h-8 w-8 animate-bounce opacity-30 drop-shadow sm:block">
+      <div className="absolute bottom-[10%] hidden h-8 w-8 animate-bounce opacity-30 drop-shadow-sm sm:block">
         <Image src={'/down-arrow.svg'} fill alt="arrow" />
       </div>
     </section>

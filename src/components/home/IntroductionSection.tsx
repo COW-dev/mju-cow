@@ -30,13 +30,13 @@ export default function IntroductionSection() {
         <span className="bg-blue-100 px-2 py-1 text-base font-semibold text-blue-500 md:text-lg">
           INTRODUCTION
         </span>
-        <h2 className="mb-18 mt-2 text-2.5xl leading-tight drop-shadow sm:text-3xl md:mb-32 md:text-4.5xl">
+        <h2 className="mb-18 mt-2 text-2.5xl leading-tight drop-shadow-sm sm:text-3xl md:mb-32 md:text-4.5xl">
           카우는 함께 공유하며 성장하는 <br /> IT 서비스 개발 동아리입니다
         </h2>
         <div className="grid grid-cols-1 gap-y-16 sm:grid-cols-2 xl:grid-cols-4">
           {activities.map(({ id, name, icon }) => (
             <div key={id} className="flex flex-col items-center justify-center">
-              <div className="relative mb-6 h-18 w-18 drop-shadow md:mb-8 md:h-24 md:w-24">
+              <div className="relative mb-6 h-18 w-18 md:mb-8 md:h-24 md:w-24">
                 <Image src={icon} fill alt={icon} />
               </div>
               <p className="text-xl font-semibold text-gray-600 md:text-2xl">

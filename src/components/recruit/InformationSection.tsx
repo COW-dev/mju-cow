@@ -45,7 +45,7 @@ export default function InformationSection() {
         <span className="bg-blue-100 px-2 py-1 text-base font-semibold text-blue-500 md:text-lg">
           INFORMATION
         </span>
-        <h2 className="mb-10 mt-2 text-2.5xl font-semibold drop-shadow sm:mb-14 sm:text-3xl md:text-4.5xl">
+        <h2 className="mb-10 mt-2 text-2.5xl font-semibold drop-shadow-sm sm:mb-14 sm:text-3xl md:text-4.5xl">
           활동 관련 안내 사항
         </h2>
         <ul className="grid grid-cols-1 gap-y-10 bg-gray-50 p-6 sm:grid-cols-2">

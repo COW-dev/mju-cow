@@ -64,7 +64,7 @@ export default function HistorySection() {
           <span className="bg-blue-100 px-2 py-1 text-base font-semibold text-blue-500 md:text-lg">
             HISTORY
           </span>
-          <h3 className="mt-2 text-2.5xl leading-tight drop-shadow sm:text-3xl md:text-4.5xl">
+          <h3 className="mt-2 text-2.5xl leading-tight drop-shadow-sm sm:text-3xl md:text-4.5xl">
             카우가 걸어온 길
           </h3>
         </div>
@@ -76,7 +76,7 @@ export default function HistorySection() {
               </HistoryCard>
             ))}
           </div>
-          <div className="relative h-[36rem] w-[5rem] drop-shadow md:w-[6rem]">
+          <div className="relative h-[36rem] w-[5rem] drop-shadow-sm md:w-[6rem]">
             <Image src={'/history.svg'} fill alt="line" />
           </div>
           <div className="mt-[9rem] flex w-[45%] flex-col items-start gap-[9rem]">
@@ -88,7 +88,7 @@ export default function HistorySection() {
           </div>
         </div>
         <div className="flex justify-center sm:hidden">
-          <div className="relative h-[36rem] w-[4rem] drop-shadow">
+          <div className="relative h-[36rem] w-[4rem] drop-shadow-sm">
             <Image src={'/history.svg'} fill alt="line" />
           </div>
           <div className="flex w-full max-w-md flex-col">

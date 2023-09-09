@@ -23,7 +23,7 @@ export default function IdealSection() {
           <span className="bg-blue-100 px-2 py-1 text-base font-semibold text-blue-500 md:text-lg">
             IDEAL
           </span>
-          <h2 className="mb-14 mt-2 text-2.5xl font-semibold drop-shadow sm:mb-18 sm:text-3xl md:text-4.5xl">
+          <h2 className="mb-14 mt-2 text-2.5xl font-semibold drop-shadow-sm sm:mb-18 sm:text-3xl md:text-4.5xl">
             이런 분과 함께하고 싶어요!
           </h2>
           <ul>
