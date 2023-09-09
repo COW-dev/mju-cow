@@ -23,7 +23,7 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css"
         />
       </head>
-      <body className="flex h-full w-full flex-col justify-center overflow-y-scroll bg-white tracking-tighter text-black100">
+      <body className="flex h-full min-h-screen w-full flex-col justify-between overflow-y-scroll bg-white tracking-tighter text-black100">
         <Header />
         <main className="flex flex-col items-center justify-between">
           {children}
