@@ -15,7 +15,7 @@ export default function Footer() {
               width={88}
               height={40}
               alt="instagram_logo"
-              className="mr-10 opacity-60"
+              className="mr-4 opacity-60 sm:mr-8"
             />
           </a>
           <Image
