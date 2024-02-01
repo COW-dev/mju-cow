@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Pretendard Variable';
+  }
+
+  img {
+    -webkit-user-drag: none;
+    -webkit-user-select: text;
+    user-select: text;
+  }
+}
