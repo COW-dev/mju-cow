@@ -30,7 +30,7 @@ export default function RootLayout({
           href="https://webfontworld.github.io/LotteriaChab/LotteriaChab.css"
         />
       </head>
-      <body className="flex h-full min-h-screen flex-col items-center overflow-y-scroll bg-gradient-to-r from-black to-neutral-800 tracking-tight text-white">
+      <body className="flex h-full min-h-screen flex-col items-center overflow-y-scroll bg-gradient-to-r from-black to-neutral-800 font-medium tracking-tight text-white">
         <div className="w-full px-8 md:max-w-screen-xl md:px-14">
           <Header />
           <MainLayout>{children}</MainLayout>
