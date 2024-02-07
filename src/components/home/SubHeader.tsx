@@ -3,5 +3,5 @@ export default function SubHeader({
 }: Readonly<{
   content: string;
 }>) {
-  return <h2 className="text-2xl font-semibold md:text-5xl">{content}</h2>;
+  return <h2 className="text-3xl font-semibold md:text-5xl">{content}</h2>;
 }

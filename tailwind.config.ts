@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         cowblue: '#3646DB',
       },
-      height: {
+      spacing: {
         18: '4.5rem',
         screen80: '80vh',
       },

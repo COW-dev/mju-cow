@@ -29,11 +29,11 @@ export default function Recruit() {
   return (
     <section className="h-screen80 py-36">
       <SubHeader content="모집 일정" />
-      <ul className="mt-20">
+      <ul className="mt-16 md:mt-20">
         {schedules.map(({ date, content }, idx) => (
           <li
             key={idx}
-            className="mb-6 flex flex-col text-lg md:mb-10 md:flex-row md:text-2xl"
+            className="mb-5 flex flex-col text-lg md:mb-10 md:flex-row md:text-2xl"
           >
             <div className="text-neutral-400 md:w-72">{date}</div>
             <div>{content}</div>

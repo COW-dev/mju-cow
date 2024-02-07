@@ -12,4 +12,9 @@
     -webkit-user-select: text;
     user-select: text;
   }
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
 }
