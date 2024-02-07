@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 export default function Welcome() {
   return (
-    <section className="h-screen80 pt-20 font-semibold">
+    <section className="h-screen50 md:h-screen80 pt-20 font-semibold">
       <div className="text-right text-sm text-neutral-400 md:text-2xl">
         명지대학교 IT 서비스 개발 동아리 COW
       </div>

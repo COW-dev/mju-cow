@@ -27,7 +27,7 @@ const schedules: Array<Schedule> = [
 
 export default function Recruit() {
   return (
-    <section className="h-screen80 py-36">
+    <section className="h-screen80 md:h-screen">
       <SubHeader content="모집 일정" />
       <ul className="mt-16 md:mt-20">
         {schedules.map(({ date, content }, idx) => (

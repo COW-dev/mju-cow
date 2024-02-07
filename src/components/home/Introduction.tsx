@@ -18,7 +18,7 @@ export default function Introduction() {
   }, []);
 
   return (
-    <section className="h-screen80 md:py-36">
+    <section className="h-screen80 md:h-screen">
       <div className="flex h-full w-full flex-col items-center justify-center text-xl md:text-4xl">
         <div className="text-neutral-400">카우는 모두가 함께</div>
         <div

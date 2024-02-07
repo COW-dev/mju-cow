@@ -14,6 +14,7 @@ const config: Config = {
       spacing: {
         18: '4.5rem',
         screen80: '80vh',
+        screen50: '50vh',
       },
     },
   },
