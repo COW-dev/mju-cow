@@ -24,7 +24,7 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css"
         />
       </head>
-      <body className="flex h-full min-h-screen flex-col items-center overflow-y-scroll bg-gradient-to-r from-black to-gray-800 font-medium tracking-tight text-white">
+      <body className="flex h-full min-h-screen flex-col items-center overflow-y-scroll bg-gradient-to-r from-black to-neutral-800 font-medium tracking-tight text-white">
         <Header />
         <MainLayout>{children}</MainLayout>
         <Footer />
