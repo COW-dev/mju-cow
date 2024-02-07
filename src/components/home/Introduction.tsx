@@ -6,9 +6,10 @@ export default function Introduction() {
 
   useEffect(() => {
     const handleScroll = () => {
+      const height = screen.height;
       const scrollY = window.scrollY;
-      const threshold = 450;
-      setIsVisible(scrollY > threshold);
+      const threshold = 0.5;
+      setIsVisible(scrollY > height * threshold);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -22,7 +23,7 @@ export default function Introduction() {
       <div className="flex h-full w-full flex-col items-center justify-center text-xl md:text-4xl">
         <div className="text-neutral-400">카우는 모두가 함께</div>
         <div
-          className={`fade-in md:pt-18 pb-11 pt-10 text-4xl font-extrabold md:pb-20 md:text-8xl ${isVisible ? 'opacity-100' : ''}`}
+          className={`fade-in pb-11 pt-10 text-4xl font-extrabold md:pb-20 md:pt-18 md:text-8xl ${isVisible ? 'opacity-100' : ''}`}
         >
           Growth
         </div>
