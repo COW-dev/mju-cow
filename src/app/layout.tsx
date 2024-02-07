@@ -25,11 +25,9 @@ export default function RootLayout({
         />
       </head>
       <body className="flex h-full min-h-screen flex-col items-center overflow-y-scroll bg-gradient-to-r from-black to-gray-800 font-medium tracking-tight text-white">
-        <div className="w-full md:max-w-screen-xl">
-          <Header />
-          <MainLayout>{children}</MainLayout>
-          <Footer />
-        </div>
+        <Header />
+        <MainLayout>{children}</MainLayout>
+        <Footer />
       </body>
     </html>
   );

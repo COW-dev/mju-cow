@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         cowblue: '#3646DB',
       },
+      height: {
+        18: '4.5rem',
+      },
     },
   },
   plugins: [],
