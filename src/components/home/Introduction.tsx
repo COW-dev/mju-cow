@@ -8,7 +8,7 @@ export default function Introduction() {
     const handleScroll = () => {
       const height = screen.height;
       const scrollY = window.scrollY;
-      const threshold = 0.5;
+      const threshold = 0.35;
       setIsVisible(scrollY > height * threshold);
     };
 
