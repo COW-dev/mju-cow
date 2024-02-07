@@ -13,6 +13,7 @@ const config: Config = {
       },
       height: {
         18: '4.5rem',
+        screen80: '80vh',
       },
     },
   },

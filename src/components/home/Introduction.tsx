@@ -1,3 +1,3 @@
 export default function Introduction() {
-  return <section className="h-[80vh] py-36"></section>;
+  return <section className="h-screen80 py-36"></section>;
 }

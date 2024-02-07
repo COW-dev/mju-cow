@@ -1,6 +1,8 @@
 import SubHeader from './SubHeader';
 
-const schedules: Array<{ date: string; content: string }> = [
+type Schedule = { date: string; content: string };
+
+const schedules: Array<Schedule> = [
   {
     date: '02.26(월)-03.08(금)',
     content: '서류 제출',
@@ -25,7 +27,7 @@ const schedules: Array<{ date: string; content: string }> = [
 
 export default function Recruit() {
   return (
-    <section className="h-[80vh] py-36">
+    <section className="h-screen80 py-36">
       <SubHeader content="모집 일정" />
       <ul className="mt-20">
         {schedules.map(({ date, content }, idx) => (
