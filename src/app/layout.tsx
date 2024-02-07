@@ -20,18 +20,12 @@ export default function RootLayout({
         <link
           rel="stylesheet"
           as="style"
-          crossOrigin={'anonymous'}
+          crossOrigin="anonymous"
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css"
         />
-        <link
-          rel="stylesheet"
-          as="style"
-          crossOrigin={'anonymous'}
-          href="https://webfontworld.github.io/LotteriaChab/LotteriaChab.css"
-        />
       </head>
-      <body className="flex h-full min-h-screen flex-col items-center overflow-y-scroll bg-gradient-to-r from-black to-neutral-800 font-medium tracking-tight text-white">
-        <div className="w-full px-8 md:max-w-screen-xl md:px-14">
+      <body className="flex h-full min-h-screen flex-col items-center overflow-y-scroll bg-gradient-to-r from-black to-gray-800 font-medium tracking-tight text-white">
+        <div className="w-full md:max-w-screen-xl">
           <Header />
           <MainLayout>{children}</MainLayout>
           <Footer />
