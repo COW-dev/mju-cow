@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <link rel="icon" href="/icon/cow.png" />
         <link
           rel="stylesheet"
           as="style"

@@ -9,7 +9,7 @@ export default function Home() {
       <Welcome />
       <Introduction />
       <Recruit />
-      <Question />
+      {/* <Question /> */}
     </main>
   );
 }
